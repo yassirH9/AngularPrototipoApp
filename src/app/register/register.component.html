@@ -1,0 +1,26 @@
+<div class="bg-slide">
+    <div>
+  
+    </div>
+    <img class="logo" src="../assets/images/logo.png" />
+    <form class="form">
+      <div>
+        <input [(ngModel)]="email" name="email" id="email" type="text" placeholder="email">
+      </div>
+      <div>
+        <input [(ngModel)]="name" name="name" id="name" type="text" placeholder="name">
+      </div>
+      <div>
+        <input [(ngModel)]="password" name="password" id="password" type="password" placeholder="password">
+      </div>
+      <div>
+        <input [(ngModel)]="password2" name="password" id="password2" type="password" placeholder="password">
+      </div>
+
+    </form>
+
+    <div class="login_btn">
+      <button id="register2" class="register2" (click)="onSubmit()">Register</button>
+      <button id="register2b" class="register2" (click)="onSubmitOut()">Back</button>
+    </div>
+  </div>

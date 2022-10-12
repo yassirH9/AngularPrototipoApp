@@ -1,0 +1,14 @@
+<div class="container">
+    <img [src]="srcimage" alt="" />
+    <div class="subcontainer">
+        <h3 [textContent]="title"></h3>
+        <div class="subsubcontainer">
+            <h3 class="h3price" [textContent]="price"></h3>
+            <div class="subsubsubcontainer">
+            <button (click)="menos()"  class="button2"><img src="https://cdn-icons-png.flaticon.com/512/271/271207.png"></button>
+            <h3 [textContent]="amount"></h3>
+            <button (click)="mas()" class="button1"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828925.png"/></button>
+        </div>
+        </div>
+    </div>
+</div>

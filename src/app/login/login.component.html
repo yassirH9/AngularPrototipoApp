@@ -1,0 +1,27 @@
+<div class="bg-slide">
+    <div>
+  
+    </div>
+    <img class="logo" src="../assets/images/logo.png" />
+    <form class="form">
+      <div>
+        <input [(ngModel)]="email" name="email" id="email" type="text" placeholder="email">
+      </div>
+      <div>
+        <input [(ngModel)]="password" name="password" id="password" type="password" placeholder="password">
+      </div>
+    </form>
+    <div class="login_btn">
+      <button id="login2" class="button2" (click)="onSubmit()">Login</button>
+    </div>
+    <div class="login_btn">
+      <button id="register2" class="register2" (click)="onSubmit2()">Register</button>
+    </div>
+    <div class="extern_btn">
+      <button (click)="onSubmitOut()" id="google" class="button" type="submit"><img src="https://cdn-icons-png.flaticon.com/512/299/299409.png"/></button>
+      <button (click)="onSubmitOut()" id="facebook" class="button" type="submit"><img src="https://cdn-icons-png.flaticon.com/512/20/20837.png"/></button>
+    </div>
+    <div class="extern_guest">
+      <a (click)="onSubmitGuest()">Login as a Guest</a>
+    </div>
+  </div>

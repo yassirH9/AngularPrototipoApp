@@ -1,0 +1,352 @@
+.bg-slide {
+    position: relative;
+    width: 105%; //411
+    height: 705px;
+    left: -1em;
+    top: -1em;
+    border-radius: 0px 0px 0px 100px;
+    background-color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    //centrar todos los elementos
+    //display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 33vw;
+    top: 10%;
+    height: 150px;
+    //width: 65px;
+  }
+  
+  input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .form {
+    position: absolute;
+    left: 15vw;
+    top: 35%;
+  }
+  
+  .form #email {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10px;
+    bottom: 0%;
+  
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+  }
+  .form #name {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 90px;
+    bottom: 0%;
+  
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+  }
+  .form #password {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 170px;
+    bottom: 0%;
+  
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+  }
+  .form #password2 {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 250px;
+    bottom: 0%;
+  
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+  }
+  
+  // .form #login {
+  //   position: relative;
+  //   left: 50px;
+  //   //right: 85px;
+  //   top: 165px;
+  //   width: 200px;
+  //   height: 45px;
+  //   font-size: 25px;
+  //   border-radius: 10px;
+  //   background: #FFCE2B;
+  //   border: 0px;
+  //   outline: none;
+  //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  //   border-radius: 10px;
+  // }
+  
+  // .form #register {
+  //   position: relative;
+  //   left: 50px;
+  //   //right: 85px;
+  //   top: 165px;
+  //   width: 200px;
+  //   height: 45px;
+  //   font-size: 25px;
+  //   border-radius: 10px;
+  //   background: #FFCE2B;
+  //   border: 0px;
+  //   outline: none;
+  //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  //   border-radius: 10px;
+  // }
+  
+  .login_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  
+  .extern_btn {
+    display: flex;
+    justify-content: center;
+    margin: 75px;
+    margin-top: 180px;
+  }
+  
+  // form {
+  //   flex-direction: column;
+  //   justify-content: center;
+  // }
+  
+  #google {
+    position: relative;
+    display: block;
+    //top: 190px;
+    font-size: 25px;
+    background: #FFCE2B;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: .5em;
+  }
+  
+  #facebook {
+    position: relative;
+    display: block;
+    //top: 190px;
+    font-size: 25px;
+    background: #FFCE2B;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: .5em;
+  }
+  
+  .extern_btn button {
+    opacity: 70%;
+    top: 250px;
+  }
+  
+  a {
+    text-decoration: underline;
+    margin-left: 40vw;
+  }
+  
+  .extern_guest {
+    margin-top: 300px;
+  }
+  
+  .guest {
+    position: absolute;
+    width: 121px;
+    height: 19px;
+    left: 0%;
+    top: 95%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+  
+  #google img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  
+  #facebook img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  
+  #login2 {
+    position: relative;
+    left: 45vw;//26%
+    //right: 85px;
+    top: 410px;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: #FFCE2B;
+    border: 0px;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  
+  #register2 {
+    position: relative;
+    left: 45vw;
+    //right: 85px;
+    top: 580px;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: #FFCE2B;
+    border: 0px;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  #register2b{
+    position: relative;
+    left: 45vw;
+    //right: 85px;
+    top: 600px;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: #FF0000;
+    color: white;
+    border: 0px;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  @media screen and (min-width: 1059px) {
+    .logo {
+      left:47vw;
+    }
+    .form{
+      left: 41vw;
+    }
+    a {
+      margin-left: 50vw;
+    }
+
+  }
+  @media screen and (max-width: 1058px) {
+    .logo {
+      left:45vw;
+    }
+    .form{
+      left: 35vw;
+    }
+    #login2{
+      left: 40vw;
+    }
+    #register2{
+      left: 40vw;
+    }
+    a {
+      margin-left: 45vw;
+    }
+    #register2b{
+        left: 40vw;
+    }
+  }
+  
+  @media screen and (max-width: 730) {
+    .logo {
+      left:55vw;
+    }
+    .form{
+      left: 25vw;
+    }
+    #login2{
+      left: 35vw;
+    }
+    #register2{
+      left: 35vw;
+    }
+    a {
+      margin-left: 45vw;
+    }
+  }
+  
+  @media screen and (max-width: 630px) {
+    .logo {
+      left:35vw;
+    }
+    .form{
+      left: 23vw;
+    }
+    #login2{
+      left: 30vw;
+    }
+    #register2{
+      left: 30vw;
+    }
+    a {
+      margin-left: 45vw;
+    }
+    #register2b{
+        left: 28vw;
+    }
+  }
+  @media screen and (max-width: 400px) {
+  .logo {
+    left: 35vw;
+  }
+    .form{
+      left: 15vw;
+    }
+    #login2{
+      left: 28vw;
+    }
+    #register2{
+      left: 28vw;
+    }
+    a {
+      margin-left: 40vw;
+    }
+  }

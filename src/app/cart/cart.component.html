@@ -1,0 +1,14 @@
+<div class="container">
+    <app-itemcard (propagar)="procesaPropagar($event)" [srcimage]='srcimage1' [title]="title1" [price]="price1">
+    </app-itemcard>
+    <app-itemcard (propagar)="procesaPropagar2($event)" [srcimage]='srcimage2' [title]="title2" [price]="price2">
+    </app-itemcard>
+</div>
+<div class="container">
+    <div class="payContainer">
+        <button (click)="pay()">Pay</button>
+        <h2>:</h2>
+        <h2 [textContent]="totalamount"></h2>
+        <h2>€</h2>
+    </div>
+</div>
