@@ -13,6 +13,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { CartComponent } from './cart/cart.component';
 import { ItemcardComponent } from './components/itemcard/itemcard.component';
 import { RegisterComponent } from './register/register.component';
+import { AcercadeComponent } from './acercade/acercade.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { RegisterComponent } from './register/register.component';
     SaleComponent,
     CartComponent,
     ItemcardComponent,
-    RegisterComponent,    
+    RegisterComponent,
+    AcercadeComponent,    
   ],
   imports: [
     BrowserModule,
