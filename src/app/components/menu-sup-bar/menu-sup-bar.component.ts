@@ -26,4 +26,10 @@ export class MenuSupBarComponent implements OnInit {
   notimplementyet(){
     alert("This functionality is not yet implemented")
   }
+  acercade(){
+    window.location.href ="/acercade"
+  }
+  logout(){
+    window.location.href="/login"
+  }
 }
