@@ -12,23 +12,18 @@ export class SearchresultComponent implements OnInit{
   result:any;
   name:string="";
   itemList:{name:string,price:number,url:string}[]=itemdatajson;
-  constructor(private route: ActivatedRoute) {
-   }
   private sub: any;
-  ngOnInit(): void {
+  constructor(private route: ActivatedRoute) {
     this.sub = this.route.params.subscribe(params => {
       this.name = params['name'];
    });
     console.log("Query:"+this.name);
-    
-    
-    // const itemfinder = this.itemList.find(x=> {
-    //   if(x.name.includes(this.name)){
-
-    //   }
-    // });
     this.result = this.itemList.filter(x=> x.name.includes(this.name))
     console.log(this.result);
+   }
+
+  ngOnInit(): void {
+    
   }
 
 }
