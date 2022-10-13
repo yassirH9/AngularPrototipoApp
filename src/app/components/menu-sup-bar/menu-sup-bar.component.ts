@@ -15,8 +15,6 @@ export class MenuSupBarComponent implements OnInit {
   }
   //para realizar la busqueda en json y redirigir a la pagina result
   search(){
-    // console.log("Search Param: "+this.searchbar.toUpperCase());
-    // window.location.href="/result/"+this.searchbar.toString();
     this.router.navigate(['/result',this.searchbar]);
   }
   //para redirigir a la pagina de usuario si la variable de control esta true si no envia al login

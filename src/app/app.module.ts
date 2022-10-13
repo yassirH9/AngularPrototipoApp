@@ -15,6 +15,7 @@ import { ItemcardComponent } from './components/itemcard/itemcard.component';
 import { RegisterComponent } from './register/register.component';
 import { AcercadeComponent } from './acercade/acercade.component';
 import { SearchresultComponent } from './searchresult/searchresult.component';
+import { CardfoundComponent } from './components/cardfound/cardfound.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { SearchresultComponent } from './searchresult/searchresult.component';
     ItemcardComponent,
     RegisterComponent,
     AcercadeComponent,
-    SearchresultComponent,    
+    SearchresultComponent,
+    CardfoundComponent,    
   ],
   imports: [
     BrowserModule,
