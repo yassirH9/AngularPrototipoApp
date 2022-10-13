@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-cardfound',
@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cardfound.component.scss']
 })
 export class CardfoundComponent implements OnInit {
-
+  @Input() srcimage:string="";
+  @Input() title:string="";
+  @Input() price:number=0;
   constructor() { }
 
   ngOnInit(): void {

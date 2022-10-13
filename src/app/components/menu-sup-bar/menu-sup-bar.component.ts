@@ -34,4 +34,7 @@ export class MenuSupBarComponent implements OnInit {
   logout(){
     window.location.href="/login"
   }
+  support(){
+    window.location.href="/contact"
+  }
 }
