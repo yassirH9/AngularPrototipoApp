@@ -1,6 +1,6 @@
 <header>
     <div class="search-box">
-        <input type="text" class="input-search" placeholder="Type to Search...">
+        <input [(ngModel)]="searchbar" type="text" class="input-search" placeholder="Type to Search...">
         <button class="btn-search" (click)="search()"><img class="btn-search-img"
                 src="https://cdn-icons-png.flaticon.com/512/149/149852.png" /></button>
         <button class="btn-user" (click)="userdata()"><img class="btn-user-image"

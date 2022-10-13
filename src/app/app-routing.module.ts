@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { SaleComponent } from './sale/sale.component';
+import { SearchresultComponent } from './searchresult/searchresult.component';
 CartComponent
 const routes: Routes = [
   {
@@ -35,6 +36,10 @@ const routes: Routes = [
   {
     path: 'acercade',
     component: AcercadeComponent
+  },
+  {
+    path: 'result/:name',
+    component: SearchresultComponent
   },
 ];
 
